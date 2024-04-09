@@ -1,0 +1,9 @@
+
+
+
+CREATE OR ALTER PROCEDURE getUserByEmail(@Email VARCHAR(300))
+AS
+BEGIN
+
+	SELECT * FROM UserTable WHERE Email =@Email
+END

@@ -1,0 +1,30 @@
+
+<div class="user">
+
+<div class="user-card" >
+    <div class="user-card-header">
+        <h1>Profile</h1>
+    </div>
+    <div class="user-card-body">
+        <div class="user-card-body-left">
+            <div class="user-card-body-left-img">
+                <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar">
+            </div>
+            <div class="user-card-body-left-name">
+                <h1>Name</h1>
+                <h2>{{user.name}}</h2>
+            </div>
+        </div>
+        <div class="user-card-body-right">
+            <div class="user-card-body-right-email">
+                <h1>Role</h1>
+                <h2>{{user.role}}</h2>
+            </div>
+        </div>
+        <button routerLink="/profile/updateUser">update</button>
+    </div>
+</div>
+<div class="update">
+    <router-outlet></router-outlet>
+</div>
+</div>

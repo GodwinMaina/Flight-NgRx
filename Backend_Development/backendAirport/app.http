@@ -1,0 +1,67 @@
+
+GET http://localhost:4000/flights
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+
+
+###
+GET http://localhost:4000/flights/93067214-6361-4a02-ac1f-db118e6aa725
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+
+###
+GET http://localhost:4000/flights/booking/emails
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+###
+POST  http://localhost:4000/flights
+Content-Type: application/json
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+
+{
+    "Destination":"China",
+    "TravelDate":"2023/03/03"
+}
+
+###
+PUT  http://localhost:4000/flights/93067214-6361-4a02-ac1f-db118e6aa725
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+Content-Type: application/json
+
+{
+    
+    "Destination":"Japan",
+    "TravelDate":"2023/02/20"
+}
+
+###
+GET http://localhost:4000/flights/c508e135-2cac-4a6f-bf49-0323db54bded
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+
+
+###
+DELETE  http://localhost:4000/flights/c508e135-2cac-4a6f-bf49-0323db54bded
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
+
+
+
+###
+POST  http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+    "Name":"goddy",
+    "Email":"goddy1@gmail.com",
+    "Password":"123456"
+}
+
+###
+POST  http://localhost:4000/auth/login
+Content-Type: application/json
+
+{
+    "Email":"goddy1@gmail.com",
+    "Password":"123456"
+}
+
+
+###
+GET  http://localhost:4000/auth/home
+token:eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJJZCI6ImRhOGU1MzZjLTg3MjctNDY3MS1hYmFjLWJkNjQ5ZWRkMTM4OSIsIk5hbWUiOiJnb2RkeSIsIkVtYWlsIjoiZ29kZHkxQGdtYWlsLmNvbSIsIlJvbGUiOiJ1c2VyIiwiaXNTZW50IjoiMCIsImlhdCI6MTcxMjU5MTQyNCwiZXhwIjoxNzEyNTk1MDI0fQ.PpJ29TfqKAhCKL3fUgcYCitVOxicOW0o2ZSvFuEXo7w
